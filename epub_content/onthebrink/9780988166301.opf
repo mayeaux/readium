@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" unique-identifier="uid" xmlns="http://www.idpf.org/2007/opf">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:title>On the Brink</dc:title>
+		<dc:language>en-US</dc:language>
+		<dc:identifier id="uid" opf:scheme="isbn">978-0-9881663-0-1</dc:identifier>
+		<dc:creator opf:role="aut" opf:file-as="Mayfield, Anthony">Anthony Mayfield</dc:creator>
+		<dc:publisher>On The Brink Publishing</dc:publisher>
+		<dc:date opf:event="publication">2013</dc:date>
+		<dc:rights>Copyright &#x00A9; 2013 by Anthony Mayfield</dc:rights>
+		<meta name="cover" content="my_cover_image"/>
+	</metadata>
+	<manifest>
+		<item id="ncx" href="9780988166301.ncx" media-type="application/x-dtbncx+xml"/>
+		<item id="cover" href="OEBPS/cover.htm" media-type="application/xhtml+xml"/>
+		<item id="htp" href="OEBPS/htp.htm" media-type="application/xhtml+xml"/>
+		<item id="title" href="OEBPS/title.htm" media-type="application/xhtml+xml"/>
+		<item id="cop" href="OEBPS/cop.htm" media-type="application/xhtml+xml"/>
+		<item id="toc" href="OEBPS/toc.htm" media-type="application/xhtml+xml"/>
+		<item id="c01" href="OEBPS/c01.htm" media-type="application/xhtml+xml"/>
+		<item id="c02" href="OEBPS/c02.htm" media-type="application/xhtml+xml"/>
+		<item id="c03" href="OEBPS/c03.htm" media-type="application/xhtml+xml"/>
+		<item id="c04" href="OEBPS/c04.htm" media-type="application/xhtml+xml"/>
+		<item id="c05" href="OEBPS/c05.htm" media-type="application/xhtml+xml"/>
+		<item id="c06" href="OEBPS/c06.htm" media-type="application/xhtml+xml"/>
+		<item id="bib" href="OEBPS/bib.htm" media-type="application/xhtml+xml"/>
+		<item id="css" href="OEBPS/style.css" media-type="text/css"/>
+		<item id="my_cover_image" href="OEBPS/images/cover.jpg" media-type="image/jpeg"/>
+		<item id="image1" href="OEBPS/images/118-1.jpg" media-type="image/jpeg"/>
+		<item id="image2" href="OEBPS/images/120-1.jpg" media-type="image/jpeg"/>
+		<item id="image3" href="OEBPS/images/123-1.jpg" media-type="image/jpeg"/>
+		<item id="image4" href="OEBPS/images/123-2.jpg" media-type="image/jpeg"/>
+		<item id="image5" href="OEBPS/images/14-1.jpg" media-type="image/jpeg"/>
+		<item id="image6" href="OEBPS/images/154-1.jpg" media-type="image/jpeg"/>
+		<item id="image7" href="OEBPS/images/159-1.jpg" media-type="image/jpeg"/>
+		<item id="image8" href="OEBPS/images/163-1.jpg" media-type="image/jpeg"/>
+		<item id="image9" href="OEBPS/images/166-1.jpg" media-type="image/jpeg"/>
+		<item id="image10" href="OEBPS/images/18-1.jpg" media-type="image/jpeg"/>
+		<item id="image11" href="OEBPS/images/186-1.jpg" media-type="image/jpeg"/>
+		<item id="image12" href="OEBPS/images/196-1.jpg" media-type="image/jpeg"/>
+		<item id="image13" href="OEBPS/images/199-1.jpg" media-type="image/jpeg"/>
+		<item id="image15" href="OEBPS/images/21-1.jpg" media-type="image/jpeg"/>
+		<item id="image16" href="OEBPS/images/22-1.jpg" media-type="image/jpeg"/>
+		<item id="image17" href="OEBPS/images/58-1.jpg" media-type="image/jpeg"/>
+		<item id="image18" href="OEBPS/images/59-1.jpg" media-type="image/jpeg"/>
+		<item id="image19" href="OEBPS/images/62-1.jpg" media-type="image/jpeg"/>
+		<item id="image20" href="OEBPS/images/87-1.jpg" media-type="image/jpeg"/>
+		<item id="image21" href="OEBPS/images/9-1.jpg" media-type="image/jpeg"/>
+		<item id="image22" href="OEBPS/images/92-1.jpg" media-type="image/jpeg"/>
+		<item id="image24" href="OEBPS/images/ding.jpg" media-type="image/jpeg"/>
+		<item id="image25" href="OEBPS/images/logo.jpg" media-type="image/jpeg"/>
+		<item id="font1" href="OEBPS/fonts/Garamond.ttf" media-type="application/x-font-ttf"/>
+		<item id="font2" href="OEBPS/fonts/GaramondB.ttf" media-type="application/x-font-ttf"/>
+		<item id="font3" href="OEBPS/fonts/GaramondBI.ttf" media-type="application/x-font-ttf"/>
+		<item id="font4" href="OEBPS/fonts/GaramondI.ttf" media-type="application/x-font-ttf"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cover"/>
+		<itemref idref="htp"/>
+		<itemref idref="title"/>
+		<itemref idref="cop"/>
+		<itemref idref="toc"/>
+		<itemref idref="c01"/>
+		<itemref idref="c02"/>
+		<itemref idref="c03"/>
+		<itemref idref="c04"/>
+		<itemref idref="c05"/>
+		<itemref idref="c06"/>
+		<itemref idref="bib"/>
+	</spine>
+	<guide>
+		<reference type="toc" title="Table of Contents" href="OEBPS/toc.htm"/>
+		<reference type="cover" title="Cover" href="OEBPS/cover.htm"/>
+		<reference type="copyright-page" title="Copyright" href="OEBPS/cop.htm"/>
+	</guide>
+</package>

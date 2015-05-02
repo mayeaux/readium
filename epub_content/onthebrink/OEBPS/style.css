@@ -1,0 +1,319 @@
+@page{
+margin: 10px;
+}
+
+@font-face {
+font-family: "Garamond";
+font-style: normal;
+font-weight: normal;
+src:url(fonts/Garamond.ttf);
+}
+
+@font-face {
+font-family: "Garamond";
+font-style: normal;
+font-weight: bold;
+src:url(fonts/GaramondB.ttf);
+}
+
+@font-face {
+font-family: "Garamond";
+font-style: italic;
+font-weight: normal;
+src:url(fonts/GaramondI.ttf);
+}
+
+@font-face {
+font-family: "Garamond";
+font-style: italic;
+font-weight: bold;
+src:url(fonts/GaramondBI.ttf);
+}
+
+
+body{
+font-size: medium;
+text-align: justify;
+line-height: 1.2em;
+text-indent: 0em;
+font-family: "Garamond";
+}
+
+p{
+text-indent: 0em;
+margin-top: 0.1em;
+margin-bottom: 0.1em;
+}
+
+p.indent{
+text-indent: 2em;
+}
+
+p.indent1{
+text-indent: 2em;
+margin-top: 1.5em;
+}
+
+p.nonindent{
+text-indent: 0em;
+}
+
+p.center{
+text-align: center;
+}
+
+p.caption{
+text-align: center;
+margin-top: .7em;
+margin-bottom: 0em;
+}
+
+p.center1{
+text-align: center;
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+}
+
+p.center2{
+text-align: center;
+margin-left: 2em;
+margin-right: 2em;
+margin-top: 0em;
+margin-bottom: 1em;
+}
+
+p.centers{
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+text-align: center;
+}
+
+span.big{
+font-size: 1.4em;
+line-height: 1.2em;
+}
+
+span.bigger{
+font-size: 2.5em;
+line-height: 1.2em;
+}
+
+span.big1{
+font-size: 1.5em;
+line-height: 1.2em;
+}
+
+span.big2{
+font-size: 2.3em;
+line-height: 1.2em;
+}
+
+span.big3{
+font-size: 2.7em;
+line-height: 1.2em;
+}
+
+a{
+text-decoration: none;
+}
+
+sup {
+	vertical-align: 4px;
+}
+
+sup.frac, sub.frac {
+	font-size: 0.7em;
+}
+
+div.cover{
+text-align: center;
+}
+
+div.chapter{
+margin-top: 3em;
+}
+
+div.htitlepage{
+margin-top: 30%;
+}
+
+div.titlepage{
+margin-top: 2em;
+}
+
+img{
+max-height: 100%;
+max-width: 100%;
+}
+
+div.copyright{
+margin-top: 4em;
+font-size: small;
+}
+
+p.crt{
+text-align: center;
+margin-top: .7em;
+margin-bottom: 0em;
+}
+
+p.htp{
+text-align: center;
+font-weight: normal;
+font-size: 2.2em;
+margin-top: 1em;
+margin-bottom: 0.2em;
+line-height: 0.7em;
+}
+
+p.title{
+text-align: center;
+font-weight: normal;
+font-size: 2.5em;
+margin-top: 1em;
+margin-bottom: 0.2em;
+line-height: 1.2em;
+}
+
+p.subtitle{
+text-align: center;
+font-weight: normal;
+font-size: 1.5em;
+margin-top: .5em;
+margin-bottom: 0em;
+line-height: 1.2em;
+}
+
+p.author{
+text-align: center;
+font-weight: normal;
+font-size: 1.2em;
+margin-bottom: 25%;
+margin-top: .5em;
+line-height: 1.2em;
+}
+
+p.pub{
+text-align: center;
+font-weight: normal;
+margin-bottom: 0em;
+margin-top: 1em;
+line-height: 1.2em;
+}
+
+h1.toc{
+text-align: center;
+font-weight: normal;
+font-size: 2em;
+margin-top: 2em;
+margin-bottom: 2em;
+line-height: 1.2em;
+}
+
+h1.chapter{
+text-align: center;
+font-weight: normal;
+font-size: 2em;
+margin-top: 2em;
+margin-bottom: 1em;
+line-height: 1.4em;
+}
+
+h2.section{
+text-align: left;
+font-weight: bold;
+font-size: 1.4em;
+margin-top: 1em;
+margin-bottom: 0.3em;
+line-height: 1.2em;
+}
+
+span.drop {
+float: left;
+font-size: 2.4em;
+line-height: 0.8em;
+padding-top: 0px;
+margin-top: 0px;
+margin-right: .09em;
+}
+
+div.figure{
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+page-break-inside: avoid;
+}
+
+div.blockquote{
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+}
+
+p.block{
+display: block;
+margin-left: 2em;
+margin-right: 2em;
+}
+
+p.block1{
+display: block;
+margin-left: 2em;
+}
+
+p.toc{
+text-align:left;
+margin-left: 20%;
+margin-top: 1em;
+}
+
+p.logo{
+text-align: center;
+margin-top: .5em;
+margin-bottom: 0em;
+}
+
+td.center{
+text-align: center;
+vertical-align: middle;
+}
+
+td{
+padding: 5px;
+border: 1pt solid #000000;
+vertical-align: top;
+}
+
+table{
+margin-top: 1em;
+margin-bottom: 1em;
+border-collapse: collapse;
+}
+
+span.underline{
+text-decoration: underline;
+}
+
+span.strike{
+text-decoration: line-through;
+}
+
+p.sec1{
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 2em;
+}
+
+p.sec2{
+margin-top: 2em;
+margin-bottom: 1em;
+text-align: center;
+}
+
+p.bib{
+text-align: left;
+margin-top: 1em;
+margin-bottom: 0em;
+}
+
+span.tab{
+padding-right: 1em;
+}
