@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx version="2005-1" xml:lang="en-US" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+	<head>
+		<meta name="dtb:uid" content="978-0-9881663-0-1"/>
+		<meta name="dtb:depth" content="2"/>
+		<meta name="dtb:totalPageCount" content="0"/>
+		<meta name="dtb:maxPageNumber" content="0"/>
+	</head>
+	<docTitle><text>On the Brink</text></docTitle>
+	<docAuthor><text>Anthony Mayfield</text></docAuthor>
+	<navMap>
+		<navPoint class="other" id="title" playOrder="2">
+			<navLabel><text>Title Page</text></navLabel>
+			<content src="OEBPS/title.htm"/>
+		</navPoint>
+		<navPoint class="other" id="cop" playOrder="3">
+			<navLabel><text>Copyright</text></navLabel>
+			<content src="OEBPS/cop.htm"/>
+		</navPoint>
+		<navPoint class="other" id="toc" playOrder="4">
+			<navLabel><text>Contents</text></navLabel>
+			<content src="OEBPS/toc.htm"/>
+		</navPoint>
+		<navPoint class="other" id="c01" playOrder="5">
+			<navLabel><text>I: Introduction</text></navLabel>
+			<content src="OEBPS/c01.htm"/>
+		</navPoint>
+		<navPoint class="other" id="c02" playOrder="6">
+			<navLabel><text>II: Population and The Exponential Curve</text></navLabel>
+			<content src="OEBPS/c02.htm"/>
+		</navPoint>
+		<navPoint class="other" id="c03" playOrder="7">
+			<navLabel><text>III: Oil</text></navLabel>
+			<content src="OEBPS/c03.htm"/>
+		</navPoint>
+		<navPoint class="other" id="c04" playOrder="8">
+			<navLabel><text>IV: Economics</text></navLabel>
+			<content src="OEBPS/c04.htm"/>
+		</navPoint>
+		<navPoint class="other" id="c05" playOrder="9">
+			<navLabel><text>V: Technology</text></navLabel>
+			<content src="OEBPS/c05.htm"/>
+		</navPoint>
+		<navPoint class="other" id="c06" playOrder="10">
+			<navLabel><text>VI: The Future</text></navLabel>
+			<content src="OEBPS/c06.htm"/>
+		</navPoint>
+		<navPoint class="other" id="bib" playOrder="11">
+			<navLabel><text>Bibliography</text></navLabel>
+			<content src="OEBPS/bib.htm"/>
+		</navPoint>
+	</navMap>
+</ncx>

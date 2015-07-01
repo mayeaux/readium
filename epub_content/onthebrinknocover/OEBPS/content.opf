@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uid" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>On the Brink</dc:title>
+    <dc:language>en-US</dc:language>
+    <dc:identifier id="uid" opf:scheme="isbn">978-0-9881663-0-1</dc:identifier>
+    <dc:creator opf:file-as="Mayfield, Anthony" opf:role="aut">Anthony Mayfield</dc:creator>
+    <dc:publisher>On The Brink Publishing</dc:publisher>
+    <dc:date opf:event="publication">2013</dc:date>
+    <dc:rights>Copyright © 2013 by Anthony Mayfield</dc:rights>
+    <meta name="cover" content="my_cover_image" />
+    <meta content="0.8.7" name="Sigil version" />
+    <dc:date opf:event="modification">2015-06-30</dc:date>
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/htp.htm" id="htp" media-type="application/xhtml+xml" />
+    <item href="Text/title.htm" id="title" media-type="application/xhtml+xml" />
+    <item href="Text/cop.htm" id="cop" media-type="application/xhtml+xml" />
+    <item href="Text/toc.htm" id="toc" media-type="application/xhtml+xml" />
+    <item href="Text/c01.htm" id="c01" media-type="application/xhtml+xml" />
+    <item href="Text/c02.htm" id="c02" media-type="application/xhtml+xml" />
+    <item href="Text/c03.htm" id="c03" media-type="application/xhtml+xml" />
+    <item href="Text/c04.htm" id="c04" media-type="application/xhtml+xml" />
+    <item href="Text/c05.htm" id="c05" media-type="application/xhtml+xml" />
+    <item href="Text/c06.htm" id="c06" media-type="application/xhtml+xml" />
+    <item href="Text/bib.htm" id="bib" media-type="application/xhtml+xml" />
+    <item href="Styles/style.css" id="css" media-type="text/css" />
+    <item href="Images/cover.jpg" id="my_cover_image" media-type="image/jpeg" />
+    <item href="Images/118-1.jpg" id="image1" media-type="image/jpeg" />
+    <item href="Images/120-1.jpg" id="image2" media-type="image/jpeg" />
+    <item href="Images/123-1.jpg" id="image3" media-type="image/jpeg" />
+    <item href="Images/123-2.jpg" id="image4" media-type="image/jpeg" />
+    <item href="Images/14-1.jpg" id="image5" media-type="image/jpeg" />
+    <item href="Images/154-1.jpg" id="image6" media-type="image/jpeg" />
+    <item href="Images/159-1.jpg" id="image7" media-type="image/jpeg" />
+    <item href="Images/163-1.jpg" id="image8" media-type="image/jpeg" />
+    <item href="Images/166-1.jpg" id="image9" media-type="image/jpeg" />
+    <item href="Images/18-1.jpg" id="image10" media-type="image/jpeg" />
+    <item href="Images/186-1.jpg" id="image11" media-type="image/jpeg" />
+    <item href="Images/196-1.jpg" id="image12" media-type="image/jpeg" />
+    <item href="Images/199-1.jpg" id="image13" media-type="image/jpeg" />
+    <item href="Images/21-1.jpg" id="image15" media-type="image/jpeg" />
+    <item href="Images/22-1.jpg" id="image16" media-type="image/jpeg" />
+    <item href="Images/58-1.jpg" id="image17" media-type="image/jpeg" />
+    <item href="Images/59-1.jpg" id="image18" media-type="image/jpeg" />
+    <item href="Images/62-1.jpg" id="image19" media-type="image/jpeg" />
+    <item href="Images/87-1.jpg" id="image20" media-type="image/jpeg" />
+    <item href="Images/9-1.jpg" id="image21" media-type="image/jpeg" />
+    <item href="Images/92-1.jpg" id="image22" media-type="image/jpeg" />
+    <item href="Images/ding.jpg" id="image24" media-type="image/jpeg" />
+    <item href="Images/logo.jpg" id="image25" media-type="image/jpeg" />
+    <item href="Fonts/Garamond.ttf" id="font1" media-type="application/x-font-ttf" />
+    <item href="Fonts/GaramondB.ttf" id="font2" media-type="application/x-font-ttf" />
+    <item href="Fonts/GaramondBI.ttf" id="font3" media-type="application/x-font-ttf" />
+    <item href="Fonts/GaramondI.ttf" id="font4" media-type="application/x-font-ttf" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="htp" />
+    <itemref idref="title" />
+    <itemref idref="cop" />
+    <itemref idref="toc" />
+    <itemref idref="c01" />
+    <itemref idref="c02" />
+    <itemref idref="c03" />
+    <itemref idref="c04" />
+    <itemref idref="c05" />
+    <itemref idref="c06" />
+    <itemref idref="bib" />
+  </spine>
+  <guide>
+    <reference href="Text/toc.htm" title="Table of Contents" type="toc" />
+    <reference href="Text/cop.htm" title="Copyright" type="copyright-page" />
+  </guide>
+</package>
