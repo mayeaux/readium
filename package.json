@@ -34,6 +34,6 @@
     "xml2js": "^0.4.4"
   },
   "scripts": {
-    "start": "grunt serve"
+    "start": "grunt --force"
   }
 }
